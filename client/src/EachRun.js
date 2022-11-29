@@ -4,6 +4,7 @@ import moment from "moment";
 import TableBody from "@mui/material/TableBody";
 import TableRow from "@mui/material/TableRow";
 import TableCell from "@mui/material/TableCell";
+
 // import StarBorderIcon from "@mui/icons-material/StarBorder";
 // import { yellow } from "@mui/material/colors";
 
@@ -26,6 +27,7 @@ function EachRun({ run, handleDeleteRun, handleFavoriteRun }) {
         <TableRow>
           <TableCell>{moment(run.date).format("MM/DD/YYYY")}</TableCell>
           <TableCell>{run.average_pace}</TableCell>
+
           <TableCell>{run.calories}</TableCell>
           <TableCell>{run.distance}</TableCell>
           <TableCell>{run.fastest_split}</TableCell>

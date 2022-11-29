@@ -1,7 +1,3 @@
-/* a {
-  padding: 0;
-  margin: 0;
-} */
 .addRunForm {
   display: table;
   align-items: center;
@@ -94,7 +90,7 @@ fieldset {
 }
 label {
   display: inline-block;
-  /* float: left; */
+
   clear: left;
   width: 250px;
   text-align: right;
@@ -106,7 +102,6 @@ label {
 }
 input {
   display: inline-block;
-  /* float: left; */
 }
 h6 {
   padding: 0;

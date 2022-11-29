@@ -42,6 +42,7 @@ function FindData({
           <TableHead>
             <TableRow>
               <TableCell>Date</TableCell>
+
               <TableCell>Average Pace</TableCell>
               <TableCell>Calories Burned</TableCell>
               <TableCell>Total Distance</TableCell>
