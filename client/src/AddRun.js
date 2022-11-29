@@ -52,6 +52,7 @@ function AddRun({ addRuns }) {
         <fieldset>
           <label htmlFor="date">Run date: </label>
           <TextField
+            className="formInput"
             type="date"
             name="date"
             placeholder="date"
@@ -64,6 +65,7 @@ function AddRun({ addRuns }) {
 
           <label htmlFor="distance">Distance, enter format 0.00 : </label>
           <TextField
+            className="formInput"
             type="float"
             name="distance"
             value={newRun.distance}
@@ -76,6 +78,7 @@ function AddRun({ addRuns }) {
             Total run time, enter amount of minutes and seconds (ie. 80.05):{" "}
           </label>
           <TextField
+            className="formInput"
             type="float"
             name="total_time"
             value={newRun.total_time}
@@ -86,6 +89,7 @@ function AddRun({ addRuns }) {
 
           <label htmlFor="calories">Run calories burned: </label>
           <TextField
+            className="formInput"
             type="number"
             placeholder="Calories"
             name="calories"
@@ -99,6 +103,7 @@ function AddRun({ addRuns }) {
             Average heart rate, enter in whole numbers:{" "}
           </label>
           <TextField
+            className="formInput"
             type="number"
             placeholder="Average Heartrate"
             name="average_heartrate"
@@ -112,6 +117,7 @@ function AddRun({ addRuns }) {
             Average pace, enter in format minutes.seconds:{" "}
           </label>
           <TextField
+            className="formInput"
             type="float"
             placeholder="Average Pace"
             name="average_pace"
@@ -125,6 +131,7 @@ function AddRun({ addRuns }) {
             Fastest split, enter in format minutes.seconds:{" "}
           </label>
           <TextField
+            className="formInput"
             type="float"
             placeholder="Fastest Split"
             name="fastest_split"

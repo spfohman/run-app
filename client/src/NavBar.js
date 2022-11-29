@@ -28,7 +28,9 @@ function NavBar({ logout }) {
             Find Data
           </NavLink>
           <br />
-          <Button onClick={handleLogout}>Logout</Button>
+          <Button variant="outlined" onClick={handleLogout}>
+            Logout
+          </Button>
         </Box>
       </div>
     </>
